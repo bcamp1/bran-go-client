@@ -1,0 +1,31 @@
+{
+  "name": "bran-go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "webpack",
+    "dev": "webpack serve --mode development",
+    "prod": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "vue-loader": "^15.9.6",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.6.14",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "project-name-generator": "^2.1.9",
+    "socket.io": "^4.1.3",
+    "socket.io-client": "^4.1.3",
+    "vue": "^2.6.14",
+    "webpack": "^5.47.0"
+  }
+}
